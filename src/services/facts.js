@@ -1,3 +1,4 @@
+
 const CAT_ENDPOINT_FACT = 'https://catfact.ninja/fact'
 
 export async function getRamdonFact() {

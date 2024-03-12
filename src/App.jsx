@@ -7,7 +7,7 @@ export function App() {
   const { fact, getRamdonFactAndSetImage } = useCatFact()
   const { catImage } = useCatImage(fact)
 
-  const handleClick = (evt) => {
+  const handleClick = () => {
     getRamdonFactAndSetImage()
   }
 
